@@ -1,0 +1,57 @@
+  // scss variables! 
+  $primary-color: #96BBBB;
+  $secondary-color: #30362F;
+  $background-color: #66666652;
+  $fonts: Arial, Helvetica, Serif;
+  $myFont: Helvetica, sans-serif;
+  $headFont:'Press Start 2P', cursive;
+  $myColor: #0A122A;
+  $myFontSize: 1rem;
+  $myWidth: 680px;
+
+  // basic page styling. Some of it needs compiling!
+
+  * {
+      box-sizing: border-box;
+      margin: 0.2rem;
+      padding: 0.2rem;
+  }
+  
+  header {
+      background-color: $background-color;
+      padding: 1rem;
+      text-align: left;
+      font-size: $myFontSize;
+      font-family: $fonts;
+      color: $secondary-color;
+  }
+
+  ul {
+    text-align: left;
+  }
+
+  body {
+      background-color: $primary-color;
+      font-family: $fonts;
+      line-height: 1rem;
+  }
+
+ h1 {
+    font-family: $headFont;
+    font-size: $myFontSize;
+    color: $myColor;
+    text-align: left;
+ }
+
+  h2 {
+      font-family: $headFont;
+      font-size: .75rem;
+      color: $myColor;
+      text-align: left;
+  }
+
+ p  {
+    text-align: center;
+    font-family: $myFont
+ }
+

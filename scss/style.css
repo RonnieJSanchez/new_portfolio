@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0.2rem;
+  padding: 0.2rem;
+}
+
+header {
+  background-color: rgba(102, 102, 102, 0.3215686275);
+  padding: 1rem;
+  text-align: left;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, Serif;
+  color: #30362F;
+}
+
+ul {
+  text-align: left;
+}
+
+body {
+  background-color: #96BBBB;
+  font-family: Arial, Helvetica, Serif;
+  line-height: 1rem;
+}
+
+h1 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1rem;
+  color: #0A122A;
+  text-align: left;
+}
+
+h2 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 0.75rem;
+  color: #0A122A;
+  text-align: left;
+}
+
+p {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}/*# sourceMappingURL=style.css.map */
